@@ -1,0 +1,414 @@
+body 
+{
+	background: #0A0A0A;
+	margin: 0px;
+	font-family: helventica, sans-serif;
+}
+#album
+{
+	width: 100%;
+	margin: 0px;
+}
+
+.content h1
+{
+	margin-top: 100px;
+	text-align: center;
+}
+.top
+{
+	background: rgba(1,1,1,0.7);
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	z-index: 2;
+}
+.topbar
+{
+	position: fixed;
+	height: 30px;
+	width: 100%;
+	margin: 0px;
+	padding: 5px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.aboutImg
+{
+	opacity: 60%;
+}
+.aboutText
+{
+	color: #c1c1c1;
+	vertical-align: middle;
+}
+.about
+{
+	display: flex;
+	background: #070707;
+}
+.footer
+{
+	height: 150px;
+	color:#C2C2C2;
+	justify-content: center;
+	align-items: center;
+	background: #0A0A0A;
+	display: flex;
+	flex-direction: column;
+	user-select: none;
+}
+.media i 
+{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 30px;
+	vertical-align: middle;
+}
+.footerText
+{
+	display: flex;
+	align-items: center;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.footer img
+{
+	width: 29px;
+	height: 29px;
+	margin: 5px 5px;
+}
+.footer hr
+{
+	margin-top: 5px;
+	margin: 0;
+	width: 90%;
+	text-align: center;
+}
+.footer h2
+{
+	margin-top: 10px;
+	margin: 0px;
+	font-weight: 100;
+}
+
+.info a
+{
+	color: #C2C2C2;
+}
+.info a:hover
+{
+	color: white;
+	transition: 0.2s;
+}
+.info
+{
+	display: flex;
+	justify-content: space-around;
+	float: right;
+	width: 20%;
+	margin-right: 0.5%;
+	font-size: 40px;
+}
+
+.header
+{
+	display: inline;
+	float: left;
+	margin-left: 80px;
+}
+.topbar a, i
+{
+	text-align: middle;
+	text-decoration: none;
+	font-size: 20px;
+	vertical-align: top;
+	user-select: none;
+}
+
+.topbar
+{
+	text-align: center;
+	user-select: none;
+}
+.topbar input
+{
+	width: 30%;
+	vertical-align: top;
+	border: none;
+	border-bottom: 1px solid #C2C2C2;
+	background: none;
+	color: #C2C2C2;
+}
+
+.separate
+{
+	margin: 0px;
+	background: #0A0A0A;
+	height: 40px;
+	text-align: center;
+	user-select: none;
+	color: #C2C2C2;
+	display: flex;
+	flex-direction: column;
+}	
+
+#f
+{
+	width: 100%;
+}
+
+.content h1
+{
+	user-select: none;
+	margin: 0;
+	padding: 0;
+}
+
+.content
+{
+	margin: 0px;
+	background: #070707;
+}
+.guitarType
+{
+	margin-top: 20px;
+	user-select: none;
+	margin-bottom: 20px;
+	width: 30%;
+	height: 50%;
+	opacity: 60%;
+	align-self: stretch;
+}
+
+.guitarType:hover
+{
+	transition: 0.5s;
+	opacity: 100%;
+}
+.guitars
+{
+	margin: 20px 0px;
+	display: flex;
+	user-select: none;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	background: #070707;
+}
+
+.guitarTxt p:nth-child(1)
+{
+	font-size: 25px;
+	margin: 0px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.guitarTxt p
+{
+	margin: 0px;
+}
+
+.guitarTxt
+{
+	padding-top: 5px;
+	background: #0E0E0E;
+	display: flex;
+	flex-direction: column;
+}
+.guitar
+{ 
+	text-align: center; 
+	margin: 20px 20px 20px 20px; 
+	color: #C2C2C2;
+ 	width: 30%;
+ 	background: #0A0A0A; 
+ 	user-select: none;
+}
+
+.buyButton
+{
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	color: #444;
+	background: #0D0D0D;
+	border: none;
+}
+.cart
+{
+	width: 500px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+}
+.cartGuitarContent
+{
+	display: flex;
+}
+.cartGuitar
+{
+	height: 80px;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	background: rgba(1,1,1,0.7);
+	display: block;
+	border-bottom: solid #c2c2c2 1px;
+	padding-bottom: 3px;
+}
+.cartEmpty
+{
+	height: 80px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(1,1,1,0.7);
+	border-bottom: solid #c2c2c2 1px;
+}
+.cartEmpty p
+{
+	user-select: none;
+	margin: 0;
+	color: #C2c2c2;
+}
+.cartOthersText
+{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.cartOthersButton
+{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	width: 50%;
+}
+
+.cartText
+{
+	width: 25%;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.cartImg
+{
+	height: 100%;
+	width: 50%;
+}
+
+.cartImg img
+{
+	opacity: 90%;
+}
+
+.cartOthers
+{
+	color: white;
+	display: flex;
+	justify-content: center;
+	width: 25%;
+}
+
+.cartOthersButton input[type="button"]
+{
+	height: 92%;
+	width: 100%;
+	border: none;
+	margin-right: 3px;
+	background: rgba(227, 60, 60, 0.5);
+	color: white;
+	border-radius: 5px;
+}
+
+.cartOthersButton input[type="button"]:hover
+{
+	background: rgba(227, 60, 60, 0.8);
+	transition: 0.2s;
+}
+
+.cartImg img
+{
+	height: 100%;
+	width: 100%;
+}
+
+.disabledButton
+{
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	color: #444;
+	background: #0D0D0D;
+	border: none;
+}
+.buyButton:hover
+{
+	border: solid #C2C2C2 1px;
+	color: white;
+	transition: 0.5s;
+}
+#guitarCatalog
+{
+	display: flex;
+}
+.guitar img
+{
+	opacity: 90%;
+	width: 100%;
+	height: 50%;
+	padding: 10px 0px;
+}
+.catalog
+{
+  	overflow: hidden;
+	background: #111;
+	height: 0px;
+	transition: height 0.5s ease-in-out;
+}
+
+.topbar input:focus
+{
+	outline: none;
+	color: white;
+	transition: 0.2s;
+	border-bottom: 1px solid white;
+}
+
+.header img
+{
+	left: 1%;
+	top: 3.5%;
+	position: absolute;
+	height: 90%;
+}
+
+.header a
+{
+	color: white;
+}
+
+
+/*скролбар*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111; 
+}
+::-webkit-scrollbar-thumb {
+  background: #222; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333; 
+}
