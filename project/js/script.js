@@ -376,39 +376,6 @@ function cartRefresh(isEmpty)
         return;
     }
 
-    // cart.productList.forEach(function(cartProduct)
-    // {
-    //     html = "";
-
-    //     let guitar = cartProduct.product;
-
-    //     html += '<div class = "cartGuitar">';
-    //     html += '<div class = "cartGuitarContent">';
-    //     html += '<div class="cartImg">';
-    //     html += '<img src="' + guitar.imageUrl + '">'
-    //     html += '</div>';
-
-    //     html += '<div class="cartText">';
-    //     html += '<p>' + guitar.name + ': </p>';
-    //     html += '</div>';
-
-    //     html += '<div class="cartOthers">';
-    //     html += '<div class = "cartOthersText">';
-    //     html += '<p>' + cartProduct.amount + '</p>';
-    //     html += '</div>';
-
-    //     html += '<div class = "cartOthersButton">';
-    //     let id = "cancelBut_" + guitar.id.slice(2);
-    //     html += '<input type = "button" class = "cancelButton" value = "x" id = "' + id + '">';
-    //     html += '</div>';
-    //     html += '</div>';
-    //     html += '</div>';
-
-    //     container.innerHTML += html;
-
-    //     s(document.getElementById(id), cartProduct)
-    // })
-
     for(var i = 0, length1 = cart.productList.length; i < length1; i++)
     {
         html = "";
@@ -457,7 +424,6 @@ function cancelButtonSubscription(id, cartProduct)
         buttonCartCancelClick(cartProduct);
     };
 }
-
 
 // появление корзины
 function cartShow()
