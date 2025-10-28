@@ -1,5 +1,3 @@
-// это можно было сделать с помощью ооп, но сейчас 5 часов утра так что да
-
 function range(min, max)
 {
     return Math.floor(Math.random() * (max - min) + min);
@@ -7,9 +5,9 @@ function range(min, max)
 // картинки используемые на главном экране
 const guitarAlbum = 
 [
-    "../images/guitars.jpg",
-    "../images/guitars2.png",
-    "../images/guitars3.jpg",
+    "./images/guitars.jpg",
+    "./images/guitars2.png",
+    "./images/guitars3.jpg",
 ]
 // рандомные фразы в серч баре
 const searchBar = 
@@ -174,27 +172,27 @@ class Preview
 }
 
 // для превью нужны классы, тк.к. далее будет к ним обращение, а классы(по идее) увеличат производительность, да и более собранный код - лучше
-const preview_Q = new Preview("Q","../images/guitars/q.png", 1);
-const preview_AZES = new Preview("AZES","../images/guitars/azes.png", 2);
-const preview_RG = new Preview("RG","../images/guitars/rg.png", 3);
-const preview_SA = new Preview("SA","../images/guitars/sa.png", 4);
-const preview_RGA = new Preview("RGA","../images/guitars/rga.png", 5);
-const preview_RGD = new Preview("RGD","../images/guitars/rgd.png", 6);
+const preview_Q = new Preview("Q","./images/guitars/q.png", 1);
+const preview_AZES = new Preview("AZES","./images/guitars/azes.png", 2);
+const preview_RG = new Preview("RG","./images/guitars/rg.png", 3);
+const preview_SA = new Preview("SA","./images/guitars/sa.png", 4);
+const preview_RGA = new Preview("RGA","./images/guitars/rga.png", 5);
+const preview_RGD = new Preview("RGD","./images/guitars/rgd.png", 6);
 const catalogPreview = [preview_Q,preview_AZES,preview_RG,preview_SA,preview_RGA,preview_RGD];
 
 // классы для продуктов нужны, чтобы не засорять html код. + возможность последуещего расширения
-const product_1 = new Product(preview_Q,"Ibanez QX52","999.9$","../images/catalog/Q/q_1.png", 5, 1);
-const product_2 = new Product(preview_Q,"Ibanez Q547","999.9$","../images/catalog/Q/q_2.png", 5, 2);
-const product_3 = new Product(preview_AZES,"Ibanez AZES31","499.9$","../images/catalog/AZES/a_1.png", 5, 3);
-const product_4 = new Product(preview_AZES,"Ibanez AZES40","499.9$","../images/catalog/AZES/a_2.png", 5, 4);
-const product_5 = new Product(preview_RG,"Ibanez RG8870","2,999.9$","../images/catalog/RG/rg_1.png", 5, 5);
-const product_6 = new Product(preview_RG,"Ibanez RG9PB","1,199.9$","../images/catalog/RG/rg_2.png", 5, 6);
-const product_7 = new Product(preview_SA,"Ibanez SA460MBW","799.9$","../images/catalog/SA/s_1.png", 5, 7);
-const product_8 = new Product(preview_SA,"Ibanez SA360NQM","649.9$","../images/catalog/SA/s_2.png", 5, 8);
-const product_9 = new Product(preview_RGA,"Ibanez RGA42HPT","1,299.9$","../images/catalog/RGA/rga_1.png", 5, 9);
-const product_10 = new Product(preview_RGA,"Ibanez RGA42EX","649.9$","../images/catalog/RGA/rga_2.png", 5, 10);
-const product_11 = new Product(preview_RGD,"Ibanez RGDR4327","2,999.9$","../images/catalog/RGD/rgd_1.png", 5, 11);
-const product_12 = new Product(preview_RGD,"Ibanez RGD61ALA","1,499.9$","../images/catalog/RGD/rgd_2.png", 5, 12);
+const product_1 = new Product(preview_Q,"Ibanez QX52","999.9$","./images/catalog/Q/q_1.png", 5, 1);
+const product_2 = new Product(preview_Q,"Ibanez Q547","999.9$","./images/catalog/Q/q_2.png", 5, 2);
+const product_3 = new Product(preview_AZES,"Ibanez AZES31","499.9$","./images/catalog/AZES/a_1.png", 5, 3);
+const product_4 = new Product(preview_AZES,"Ibanez AZES40","499.9$","./images/catalog/AZES/a_2.png", 5, 4);
+const product_5 = new Product(preview_RG,"Ibanez RG8870","2,999.9$","./images/catalog/RG/rg_1.png", 5, 5);
+const product_6 = new Product(preview_RG,"Ibanez RG9PB","1,199.9$","./images/catalog/RG/rg_2.png", 5, 6);
+const product_7 = new Product(preview_SA,"Ibanez SA460MBW","799.9$","./images/catalog/SA/s_1.png", 5, 7);
+const product_8 = new Product(preview_SA,"Ibanez SA360NQM","649.9$","./images/catalog/SA/s_2.png", 5, 8);
+const product_9 = new Product(preview_RGA,"Ibanez RGA42HPT","1,299.9$","./images/catalog/RGA/rga_1.png", 5, 9);
+const product_10 = new Product(preview_RGA,"Ibanez RGA42EX","649.9$","./images/catalog/RGA/rga_2.png", 5, 10);
+const product_11 = new Product(preview_RGD,"Ibanez RGDR4327","2,999.9$","./images/catalog/RGD/rgd_1.png", 5, 11);
+const product_12 = new Product(preview_RGD,"Ibanez RGD61ALA","1,499.9$","./images/catalog/RGD/rgd_2.png", 5, 12);
 const catalogProducts = [product_1,product_2,product_3,product_4,product_5,product_6,product_7,product_8,product_9,product_10,product_11,product_12];
 
 // обновление сайта
