@@ -175,7 +175,7 @@ class Preview
 const preview_Q = new Preview("Q","./images/guitars/q.png", 1);
 const preview_AZES = new Preview("AZES","./images/guitars/azes.png", 2);
 const preview_RG = new Preview("RG","./images/guitars/rg.png", 3);
-const preview_SA = new Preview("SA","./images/guitars/sa.png", 4);
+const preview_SA = new Preview("SA","./images/guitars/SA.png", 4);
 const preview_RGA = new Preview("RGA","./images/guitars/rga.png", 5);
 const preview_RGD = new Preview("RGD","./images/guitars/rgd.png", 6);
 const catalogPreview = [preview_Q,preview_AZES,preview_RG,preview_SA,preview_RGA,preview_RGD];
